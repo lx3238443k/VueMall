@@ -1,0 +1,148 @@
+.body-cart{
+	width: 100%;
+	background-color: #FAFAFA;
+	padding: 20px 0;
+}
+
+.cart-title{
+	height: 40px;
+	width: 100%;
+	background-color: #333333;
+	color: #FFFFFF;
+	
+	font-size: 24px;
+	line-height: 40px;
+	
+}
+
+.cart-list{
+	width: 90%;
+	margin: 20px auto;
+}
+
+.cart-list tr{
+	height: 200px;
+}
+
+.cart-list tr td:nth-child(1){
+	width: 20%;
+	font-size: 25px;
+}
+.cart-list tr td:nth-child(2){
+	width: 20%
+}
+.cart-list tr td:nth-child(3){
+	width: 15%;
+	color: #ED5328;
+	font-size: 24px;
+}
+.cart-list tr td:nth-child(5){
+	width: 15%;
+	color: #ED5328;
+	font-size: 24px;
+}
+
+.cart-list tr td:nth-child(5){
+	text-align: center;
+}
+
+
+.num-ctr{
+	width: 100%;
+	text-align: center;
+}
+
+.num-ctr div{
+	display: inline-block;
+}
+
+.num-ctr .btn{
+	width: 30px;
+	height: 30px;
+	background-color: #333333;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.num-ctr .num{
+	width: 50px;
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.select-btn{
+	display: inline-block;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid #000000;
+}
+
+.select-btn:hover{
+	background-color: #888888;
+}
+
+.body-cart .cart-list .delet{
+	display: inline-block;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	background-color: #333333;
+	color: #F5F5F5;
+	text-align: center;
+}
+
+.body-cart .jiesuan{
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #FBEFE7;
+	display: flex;
+	
+}
+
+.body-cart .jiesuan div{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+}
+
+
+.body-cart .title{
+	height: 40px;
+	background-color: #333333;
+	color: #F0F0F0;
+	font-size: 18px;
+}
+
+.body-cart .check{
+	background-color: #333333;
+}
+
+.body-cart .jiesuan .btn-ck{
+	flex: 1;
+	background-color: #ED5328;
+}
+
+.body-cart .jiesuan .btn-dis{
+	cursor: default;
+	background-color: #959FA5;
+}
+
+
+.body-cart .jiesuan div:nth-child(1){
+	flex: 3;
+}
+.body-cart .jiesuan div:nth-child(2){
+	flex: 3;
+}
+
+
+

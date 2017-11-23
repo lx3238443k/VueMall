@@ -1,0 +1,513 @@
+body{
+	-moz-user-select: none; /*火狐*/
+
+-webkit-user-select: none; /*webkit浏览器*/
+
+-ms-user-select: none; /*IE10*/
+
+-khtml-user-select: none; /*早期浏览器*/
+
+user-select: none;
+
+
+}
+
+.btn-go{
+	
+	height: 50px;
+	background: #0070C9;
+	color: #F5F5F5;
+	
+}
+
+.body-srot{
+	display: inline-block;
+}
+
+.body-srot dd{
+	display: inline-block;
+    width: 40px;
+    padding: 0;
+    
+    text-align: center;
+    border-radius: 5px;
+    color: #2c3e50;
+    font-size: 15px;
+    margin: 0 5px 0 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.body-srot dd:hover{
+	background-color: rgba(0,0,0,0.2);
+	
+	color: rgba(0,0,0,0.6);
+}
+
+.body-srot .active{
+	background-color: #888;
+	color: #fafafa;
+}
+
+
+.body-srot dd a{
+	text-decoration: none;
+
+
+}
+
+
+.body-priceFilter{
+	margin: 10px auto;
+	width: 95%;
+	height: 40px;
+	padding-left: 3%;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.body-priceFilter ul{
+	display: inline-block;
+}
+
+.body-priceFilter li{
+	line-height: 40px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.body-priceFilter li a:hover{
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 5px;
+	color: rgba(0,0,0,0.6);
+}
+
+.body-priceFilter .choose{
+	background-color: #888888;
+	
+	border-radius: 5px;
+	color: #FAFAFA;
+}
+
+.body-priceFilter li a{
+	cursor: pointer;
+	padding: 0 10px;
+	transform: translate3d(0,0,0);
+	text-decoration: none;
+	transition-duration: .2s;
+}
+
+.body-priceFilter .all:before{
+	display: inline-block; 
+  content: '\2600'; 
+  margin: 0 .6em; 
+  color: #959fa5; 
+}
+
+.body-priceFilter li:after{
+	display: inline-block; 
+  content: '\2600'; 
+  margin: 0 .6em; 
+  color: #959fa5; 
+}
+
+
+.a-breadcrumb{
+	width: 97%;
+	padding-left: 3%;
+	height: 40px;
+	display: block;
+	text-align: left;
+	font-size: 18px;
+	cursor: default;
+}
+
+.a-breadcrumb li{
+	line-height: 40px;
+	
+	display: inline-block;
+}
+
+.a-breadcrumb li a{
+	color: #999;
+	text-decoration: none;
+}
+
+.a-breadcrumb li a:hover{
+	color: #333;
+}
+
+
+.a-breadcrumb li:after{
+	display: inline-block; 
+  content: '\00bb'; 
+  margin: 0 .6em; 
+  color: #959fa5; 
+}
+
+.a-breadcrumb .active:after{
+	display: none;
+}
+
+
+
+.header{
+	height: 44px;
+	min-height: 44px;
+	width: 100%;
+	 background-color: rgba(0,0,0,0.8);
+	 font-size: 16px;
+	 font-family: 'PingFang SC';
+	 font-weight: 400;
+	 
+	 color: #fff;
+	 
+	 
+}
+
+.header-nav{
+	margin: 0 auto;
+	width: auto;
+	max-width: 980px;
+	display: flex;
+	transition-duration: .2s;
+}
+
+.header .header-nav li{
+	cursor: default;
+	flex: 1;
+	position: relative;
+	height: 44px;
+	
+	z-index: 1;
+	
+	
+}
+
+.header .header-nav li .header-nav-logo{
+	cursor: default;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(https://www.apple.com/ac/globalnav/3/zh_CN/images/globalnav/apple/image_large.svg);
+}
+
+.header .header-nav li a{
+	cursor: default;
+	display: inline-block;
+	text-decoration: none;
+	width: auto;
+	height: 44px;
+	opacity: 1;
+	
+	
+}
+
+.header .header-nav li .header-nav-title{
+	text-align: center;
+	padding-top: 10px;
+	height: 34px;
+}
+
+.header .header-nav li .header-cart{
+	display: block;
+	width: 26px;
+	background-image: url(../img/cart.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+
+.header .header-nav li a:hover{
+	opacity: .65;
+}
+
+
+.body-iphoneX{
+	
+	width: 100%;
+	text-align: center;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.body-iphoneX .body-iphoneX-bt{
+	padding-top: 57px;
+	padding-bottom: 63px;
+	background-color: #FAFAFA;
+}
+
+.body-iphoneX .body-iphoneX-title{
+
+	font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+
+.body-iphoneX .body-iphoneX-des{
+
+	font-size: 27px;
+    line-height: 1.14815;
+    font-weight: 400;
+    letter-spacing: .008em;
+}
+
+.body-iphoneX .iphoneX-box{
+	width: 100%;
+	
+	background-color: #FAFAFA;
+}
+
+.body-iphoneX .iphoneX-box .body-iphoneX-img{
+	width: 909px;
+	height: 194px;
+	margin: 0 auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	background-image: url(https://images.apple.com/v/home/dm/images/heroes/iphone-x/iphone_x_large_2x.jpg);
+}
+
+
+.body-iphoneX .body-iphoneX-buy a{
+	
+	padding: 5px 12px;
+	line-height: 21px;
+	text-decoration: none;
+	transition-duration: .2s;
+	
+}
+
+.body-iphoneX .body-iphoneX-buy a:hover{
+	
+	font-size: 25px;
+}
+
+.body-iphoneX .body-iphoneX-buy{
+	background-color: #FAFAFA;
+	padding-bottom: 57px;
+	padding-top: 63px;
+	color: #0070c9;
+	
+	font-size: 21px;
+	font-weight: 200;
+	cursor: default;
+}
+
+.body-shoplist{
+	width: 100%;
+	display: -webkit-flex; 
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.body-shoplist li{
+	width: 50%;
+	height: 30vw;	
+	
+	position: relative;
+}
+
+.body-shoplist .goods-side{
+	height: 96%;
+	width: 96%;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	overflow: hidden;
+	
+}
+
+.body-shoplist .goods-side .goods-side-mode{
+	position: absolute;
+	z-index: 44;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	transition-duration: .4s;
+	transform: translate3d(0,0,0);
+	opacity: 0;
+}
+
+.body-shoplist .goods-side:hover .goods-side-mode{
+	opacity: 1;
+}
+
+.body-shoplist .goods-side .goods-side-mode:hover .mode-text{
+	transform: translate3d(-50%,-50%,0);
+}
+
+.body-shoplist .goods-side .goods-side-mode  .mode-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%,-30%,0);
+	width: 44%;
+	z-index: 33;
+	transition-duration: .4s;
+}
+
+.body-shoplist .goods-side .goods-side-mode  .mode-text h3{
+	color: #FFFFFF;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	
+	
+}
+
+.body-shoplist .goods-side .goods-side-mode  .mode-text p{
+	color: #FAFAFA;
+	font-size: 18px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.body-goodslist{
+	width: 100%;
+	
+}
+
+.body-goodslist .goods-nav{
+	margin: 10px auto;
+	width: 98%;
+	/*background-color: salmon;*/
+	text-align: center;
+}
+
+.body-goodslist .goods-nav .goods{
+	display: inline-block;
+	width: 250px;
+	height: 300px;
+	margin: 10px 0.5%;
+	border: 1px solid #999999;
+	border-radius: 10px;
+	transition-duration: .3s;
+	
+	
+}
+
+.body-goodslist .goods-nav .goods:hover{
+
+	border-radius: 0px;
+	transform: scale(1.02);
+	
+}
+
+.body-goodslist .goods-nav .goods .goods-img{
+	width: 100%;
+	height: 249px;
+	overflow: hidden;
+	border-bottom: 1px solid #999;
+}
+
+.body-goodslist .goods-nav .goods .goods-img img{
+	display: block;
+	width: 100%;
+	
+
+}
+
+.body-goodslist .goods-nav .goods .goods-info{
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	color: black;
+	text-align: left;
+	background-color: #FAFAFA
+}
+
+.body-goodslist .goods-nav .goods .goods-info em{
+	font-size: 20px;
+	margin:0 10px 0 10px;
+	
+}
+
+.body-goodslist .goods-nav .goods .goods-info span{
+	color: #ED5328;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.body-goodslist .goods-nav .goods .goods-info .card{
+	
+	width: 30px;
+	height: 30px; 
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	border: 1px solid #959FA5;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	
+	background-image: url(../img/gwc.png);
+	background-size: cover;
+	background-repeat: no-repeat;	
+
+}
+
+.body-goodslist .goods-nav .goods .goods-info .card:hover{
+	box-shadow: 0px 0px 5px #888888;
+}
+
+.buy-list{
+	width: 90%;
+	margin: 10px auto;
+}
+
+.buy-list ul{
+	width: 100%;
+	display: table;
+	font-size: 18px;
+	
+}
+
+.buy-list ul li{
+	display: table-row;
+}
+
+.buy-list ul li span{
+	display: table-cell;
+	text-align: right;
+}
+.buy-list ul li span:nth-child(2){
+	width: 100px;
+	
+}
+
+
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0,0,0,0.8);
+	color: #FFFFFF;
+}
+
+
+.liucq div{
+	width: 120px;
+	
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	background-color: #FAFAFA;
+	border: 1px solid #333333;
+}
+
+.liucq div a{
+	text-decoration: none;
+}
+
+.liucq div:hover{
+	background-color: darkgray;
+}
+
+.liucq:after{
+	    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+}

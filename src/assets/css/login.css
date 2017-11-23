@@ -1,0 +1,38 @@
+.tanc-modal{
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.tanc-modal .flag{
+	line-height: 100%;
+    height: 100%;
+    width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.tanc-modal .tanc-main{
+	display: inline-block;
+	position: absolute;
+	padding: 30px 50px 40px 40px;
+    width: 390px;
+	z-index: 333;
+ 	background-color: #FAFAFA;
+
+    border-radius: 8px;
+    font-size: 22px;
+    text-align: left;
+    color: #444444;
+    font-weight: bold;
+    position: relative;
+    
+  
+          
+}
